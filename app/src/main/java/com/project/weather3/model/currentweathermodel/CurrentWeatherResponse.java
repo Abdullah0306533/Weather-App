@@ -1,11 +1,10 @@
-package com.project.weather3.model;
+package com.project.weather3.model.currentweathermodel;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 
-
-public class WeatherResponse {
+public class CurrentWeatherResponse {
 
     @SerializedName("location")
     @Expose

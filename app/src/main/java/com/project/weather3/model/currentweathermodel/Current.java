@@ -1,4 +1,4 @@
-package com.project.weather3.model;
+package com.project.weather3.model.currentweathermodel;
 
 
 import com.google.gson.annotations.Expose;

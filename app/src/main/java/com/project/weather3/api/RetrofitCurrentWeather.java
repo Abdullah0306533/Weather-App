@@ -7,13 +7,13 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-public class ApiClient {
+public class RetrofitCurrentWeather {
 
     // Singleton instance of the ApiInterface
-    static ApiInterface apiInterface;
+    static ApiCurrentWeather apiInterface;
 
     // Method to get the singleton instance of ApiInterface
-    public static ApiInterface getApiInterface() {
+    public static ApiCurrentWeather getApiInterface() {
         if (apiInterface == null) {
             // Build Retrofit instance
             Retrofit retrofit = new Retrofit.Builder()
@@ -22,7 +22,7 @@ public class ApiClient {
                     .build();
 
             // Create ApiInterface instance
-            apiInterface = retrofit.create(ApiInterface.class);
+            apiInterface = retrofit.create(ApiCurrentWeather.class);
         }
         return apiInterface;
     }

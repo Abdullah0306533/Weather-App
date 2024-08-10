@@ -13,7 +13,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.project.weather3.R;
 import com.project.weather3.databinding.ActivityWeatherInfoBinding;
-import com.project.weather3.model.WeatherResponse;
+import com.project.weather3.model.currentweathermodel.CurrentWeatherResponse;
 import com.project.weather3.viewmodel.WeatherViewModel;
 
 public class WeatherInfo extends AppCompatActivity {
@@ -48,9 +48,9 @@ public class WeatherInfo extends AppCompatActivity {
                     return;
                 }
 
-                weatherViewModel.getWeather(cityName).observe(WeatherInfo.this, new Observer<WeatherResponse>() {
+                weatherViewModel.getCurrentWeather(cityName).observe(WeatherInfo.this, new Observer<CurrentWeatherResponse>() {
                     @Override
-                    public void onChanged(WeatherResponse weatherResponse) {
+                    public void onChanged(CurrentWeatherResponse weatherResponse) {
                         if (weatherResponse != null) {
                             // Update the UI with weather data
                             binding.cloudTextView.setText("Cloud Cover (%) : " + weatherResponse.getCurrent().getCloud().toString());
