@@ -15,7 +15,7 @@ import com.project.weather3.model.dataforrecyclerview.AdaptersDataSource;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainPageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "238925785341",
+    "project_id": "weateher-app-79551",
+    "storage_bucket": "weateher-app-79551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238925785341:android:23b6aa07fd6131daa2b694",
+        "android_client_info": {
+          "package_name": "com.project.weather3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238925785341-s8fssqp7ksemdblm7guq7v5qo2ovvrmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.weather3.activities",
+            "certificate_hash": "e8ba84de64d2f7d51dcbbfb386bca8ed7ab08ed0"
+          }
+        },
+        {
+          "client_id": "238925785341-8paoe9b04vpsjudse26m80imjbc1i4vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRsVghrzYcdKroQ6G0LcpnKzbObxgIj6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238925785341-8paoe9b04vpsjudse26m80imjbc1i4vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

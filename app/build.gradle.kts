@@ -1,5 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
+
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -63,5 +65,15 @@ dependencies {
     implementation ("com.squareup.retrofit2:adapter-rxjava3:2.11.0")
     //swipe to refresh layout
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
+
+    //Firebase FireStore
+    implementation(platform("com.google.firebase:firebase-bom:33.2.0"))
+    //google analytics
+    implementation("com.google.firebase:firebase-analytics")
+
+    implementation("com.google.firebase:firebase-auth")
+
+    //Google Play services library and specify its version
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
 
 }
