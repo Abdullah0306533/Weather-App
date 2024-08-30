@@ -76,4 +76,7 @@ dependencies {
     //Google Play services library and specify its version
     implementation("com.google.android.gms:play-services-auth:21.2.0")
 
+    // Firebase RealTime Database
+    implementation("com.google.firebase:firebase-database")
+
 }

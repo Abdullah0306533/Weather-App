@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Weather 3</string>
+    <string name="default_web_client_id">238925785341-8paoe9b04vpsjudse26m80imjbc1i4vt.apps.googleusercontent.com</string>
 </resources>
