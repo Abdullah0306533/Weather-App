@@ -22,5 +22,29 @@ public class WeatherForecastResponse {
     @Expose
     private ForeCastWeather forecast;
 
-    // Getters and setters for the fields can be added here if needed
+    // Getters and setters
+
+    public ForecastLocation getLocation() {
+        return location;
+    }
+
+    public void setLocation(ForecastLocation location) {
+        this.location = location;
+    }
+
+    public Current getCurrent() {
+        return current;
+    }
+
+    public void setCurrent(Current current) {
+        this.current = current;
+    }
+
+    public ForeCastWeather getForecast() {
+        return forecast;
+    }
+
+    public void setForecast(ForeCastWeather forecast) {
+        this.forecast = forecast;
+    }
 }

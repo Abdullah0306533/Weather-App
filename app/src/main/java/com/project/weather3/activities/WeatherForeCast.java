@@ -34,17 +34,17 @@ public class WeatherForeCast extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        dataSources=new ArrayList<>();
-        AdaptersDataSource adaptersDataSource=new AdaptersDataSource(R.drawable.back2,"Weather");
-        dataSources.add(adaptersDataSource);
-
-        adapter=new WeatherForeCastAdapter(dataSources,this);
-
-        binding=ActivityWeatherForeCastBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
-        binding.recyclerView2.setLayoutManager(new LinearLayoutManager(this));
-        binding.recyclerView2.setAdapter(adapter);
+//        dataSources=new ArrayList<>();
+//        AdaptersDataSource adaptersDataSource=new AdaptersDataSource(R.drawable.back2,"Weather");
+//        dataSources.add(adaptersDataSource);
+//
+//        adapter=new WeatherForeCastAdapter(dataSources,this);
+//
+//        binding=ActivityWeatherForeCastBinding.inflate(getLayoutInflater());
+//        setContentView(binding.getRoot());
+//
+//        binding.recyclerView2.setLayoutManager(new LinearLayoutManager(this));
+//        binding.recyclerView2.setAdapter(adapter);
 
 
     }

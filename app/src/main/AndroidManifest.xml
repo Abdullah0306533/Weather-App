@@ -21,9 +21,8 @@
         <activity
             android:name=".activities.WeatherInfo"
             android:exported="false" />
-
         <activity
-            android:name=".activities.LoginActivity"
+            android:name=".activities.MainPageActivity"
             android:exported="true">
 
             <intent-filter>
